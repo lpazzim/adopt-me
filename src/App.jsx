@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
+import AdoptedPetContext from "./AdoptedPetContext";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
 
